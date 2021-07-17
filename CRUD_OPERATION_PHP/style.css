@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: springgreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parent .child {
+    background-color: black;
+    height: 450px;
+    width: 800px;
+    margin: 100px 350px 100px 350px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px -7px;
+}
+
+.child h2 {
+    color: springgreen;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.user-form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.first,
+.second,
+.third {
+    padding: 10px;
+}
+
+::placeholder {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(146, 146, 146);
+}
+
+.form-group {
+    width: 300px;
+    height: 35px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.btn .form-btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    background-color: springgreen;
+    color: #000;
+    font-size: 15px;
+}
+
+.btn .form-btn:hover {
+    background-color: rgb(144, 250, 197);
+    color: #000;
+}
+
+.btn .display-btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    background-color: springgreen;
+    color: #000;
+    font-size: 15px;
+    width: 300px;
+    height: 50px;
+}
+
+.btn .display-btn:hover {
+    background-color: rgb(144, 250, 197);
+    color: #000;
+}
